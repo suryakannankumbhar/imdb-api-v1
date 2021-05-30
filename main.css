@@ -1,0 +1,73 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Courier, monospace;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    border-radius: 25px;
+}
+
+img {
+    max-width: 330px;
+    border: 5px solid white;
+    border-radius: 25px;
+}
+.movieName {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 300;
+}
+main {
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    max-width: 400px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
+.link {
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: black; /*for compatibility with older browsers*/
+    background-image: linear-gradient(red, yellow);
+    border-radius: 25px;
+    /* text styles */
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
