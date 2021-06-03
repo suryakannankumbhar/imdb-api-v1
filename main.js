@@ -29,10 +29,10 @@ function getResults(query) {
 function displayResults(weather) {
     console.log(weather);
 
-    document.getElementById('card').style.border = 'thick dotted red';
+    document.getElementById('card').style.border = 'thick solid red';
 
     let title = document.querySelector('main .title');
-    title.innerText = `The Top Movie with the Requested Keyword is... `;
+    title.innerText = `The Top Result with the Requested Keyword is... `;
 
     let image = document.querySelector('.card .image');
     image.innerHTML = `<img src="${weather.d[0].i.imageUrl}">`;
