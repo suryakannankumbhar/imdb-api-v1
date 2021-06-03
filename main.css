@@ -32,6 +32,7 @@ header {
 .searchBox {
     align-content: center;
     text-align: center;
+    margin-top: 20px;
 }
 .searchBox input {
     width: 100%;
@@ -96,7 +97,7 @@ button {
 
 .app-wrap {
     padding: 20px;
-    margin: 15% 10%;
+    margin: 10% 10%;
     background-color: black;
     height: 100%;
     border: 5px solid white;
