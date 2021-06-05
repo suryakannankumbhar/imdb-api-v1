@@ -29,7 +29,7 @@ function getResults(query) {
 function displayResults(weather) {
     console.log(weather);
 
-    document.getElementById('card').style.border = 'thick solid red';
+    document.getElementById('card').style.border = 'thick solid purple';
 
     let title = document.querySelector('main .title');
     title.innerText = `The Top Result with the Requested Keyword is... `;
